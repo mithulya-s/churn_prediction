@@ -52,7 +52,7 @@ Both models are trained on the same dataset and evaluated side-by-side to unders
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -91,30 +91,6 @@ Both models are trained on the same dataset and evaluated side-by-side to unders
 │     • Actionable retention strategies                       │
 └─────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## 📚 Notebooks Included
-
-### 🔹 **ML_Coursework.ipynb** (Primary)
-Complete end-to-end machine learning workflow:
-- Data loading and comprehensive EDA
-- Feature engineering and preprocessing
-- Decision Tree model development
-- Neural Network implementation
-- Model evaluation and comparison
-- Visualizations and insights
-
-### 🔹 **Churn_Prediction_Refined.ipynb** (Refined)
-Optimized version with enhancements:
-- Streamlined preprocessing pipeline
-- Hyperparameter tuning
-- Advanced feature importance analysis
-- Refined model architectures
-- Detailed performance comparisons
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -130,7 +106,7 @@ Optimized version with enhancements:
 
 ---
 
-## 📊 What You'll Learn
+## Concepts Covered
 
 ✅ **Data Science Fundamentals**
 - Exploratory Data Analysis (EDA)
@@ -166,33 +142,6 @@ This churn prediction model can help:
 
 ---
 
-## 📁 File Structure
-
-```
-churn_prediction/
-├── ML_Coursework.ipynb              # Primary notebook (complete workflow)
-├── Churn_Prediction_Refined.ipynb   # Refined notebook (optimized version)
-└── README.md                         # Project documentation
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-pip install pandas numpy scikit-learn tensorflow matplotlib seaborn jupyter
-```
-
-### Running the Notebooks
-1. Clone the repository
-2. Navigate to the project directory
-3. Launch Jupyter Notebook
-4. Open either `ML_Coursework.ipynb` or `Churn_Prediction_Refined.ipynb`
-5. Run cells sequentially to execute the analysis
-
----
-
 ## 🔍 Key Features Analyzed
 
 The model analyzes customer features including:
@@ -220,30 +169,9 @@ The model analyzes customer features including:
 
 ---
 
-## 🎓 Learning Outcomes
-
-By exploring this project, you'll understand:
-- End-to-end machine learning workflow
-- Data preprocessing and feature engineering
-- Building and training supervised learning models
-- Model evaluation and comparison
-- Translating ML predictions into business value
-
----
-
-## 📝 Notes
-
-- The project focuses on **model development and comparison**
-- Results are evaluated on a held-out test set for unbiased assessment
-- Both notebooks document the complete analysis process
-- Extensive visualizations aid in understanding model behavior
-- Code is well-commented for educational purposes
-
----
-
 ## 🤝 Contributing
 
-This is a coursework/portfolio project. For improvements or suggestions:
+This is a portfolio project. For improvements or suggestions:
 - Feel free to open issues
 - Submit pull requests with enhancements
 - Share insights on model improvements
@@ -258,9 +186,6 @@ This project is open source and available for educational purposes.
 
 <div align="center">
 
-### 🚀 Ready to Dive In?
-Start with **ML_Coursework.ipynb** for the complete journey through customer churn prediction!
-
 **Questions?** Open an issue or reach out!
 
 ⭐ If you found this helpful, please consider giving it a star!
@@ -268,8 +193,6 @@ Start with **ML_Coursework.ipynb** for the complete journey through customer chu
 </div>
 
 ---
-
-**Last Updated:** February 2026  
+ 
 **Language:** Python 3.8+  
 **Format:** Jupyter Notebooks  
-**Status:** Active & Maintained
