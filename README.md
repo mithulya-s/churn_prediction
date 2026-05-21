@@ -14,28 +14,27 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project develops and compares **machine learning models** to predict customer churn in the telecommunications industry. By analyzing customer behavior patterns and service usage, we identify which customers are at risk of leaving, enabling proactive retention efforts.
 
-### 📌 Key Details
+### Key Details
 
 | Aspect | Details |
 |--------|---------|
 | **Dataset** | Telco Customer Churn Dataset |
-| **Samples** | 7,043 customers |
 | **Task** | Binary Classification (Churn / No Churn) |
-| **Models** | Decision Tree, Neural Network |
+| **Models** | Decision Tree, Neural Network, Ensemble CLassifiers |
 | **Data Split** | 80% Training, 20% Testing |
 | **Format** | Jupyter Notebooks |
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Two Predictive Models
 
-#### 1️⃣ **Decision Tree Classifier**
+#### 1️⃣ **Decision Tree / Random Forest Classifiers**
 - Interpretable rule-based model
 - Shows feature importance and decision paths
 - Fast training and inference
@@ -52,46 +51,7 @@ Both models are trained on the same dataset and evaluated side-by-side to unders
 
 ---
 
-## Machine Learning Pipeline
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  1. DATA LOADING & EXPLORATION                              │
-│     • Load Telco dataset                                    │
-│     • Exploratory Data Analysis (EDA)                       │
-│     • Statistical summaries & visualizations                │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│  2. DATA PREPROCESSING                                      │
-│     • Handle missing values                                 │
-│     • Encode categorical features                           │
-│     • Scale numerical features                              │
-│     • Feature engineering & selection                       │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│  3. MODEL DEVELOPMENT                                       │
-│     • Decision Tree: Training & tuning                      │
-│     • Neural Network: Architecture design & training        │
-│     • Hyperparameter optimization                           │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│  4. MODEL EVALUATION                                        │
-│     • Classification metrics (Precision, Recall, F1)        │
-│     • Confusion matrices & ROC curves                       │
-│     • Feature importance analysis                           │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│  5. INSIGHTS & RECOMMENDATIONS                              │
-│     • Model comparison & selection                          │
-│     • Business insights on churn drivers                    │
-│     • Actionable retention strategies                       │
-└─────────────────────────────────────────────────────────────┘
-```
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -130,26 +90,15 @@ Both models are trained on the same dataset and evaluated side-by-side to unders
 
 ---
 
-## 💼 Business Applications
+##  Business Applications
 
 This churn prediction model can help:
 
-🎯 **Identify At-Risk Customers** - Flag customers likely to churn before they leave  
-📞 **Target Retention Campaigns** - Focus efforts on high-value customers at risk  
-💰 **Reduce Revenue Loss** - Proactive intervention to minimize customer attrition  
-📈 **Improve Customer Lifetime Value** - Develop data-driven loyalty programs  
-🔍 **Understand Churn Drivers** - Discover key factors influencing customer decisions  
-
----
-
-## 🔍 Key Features Analyzed
-
-The model analyzes customer features including:
-- **Demographics** - Age, gender, location
-- **Service Usage** - Internet type, phone service, data consumption
-- **Contract Details** - Contract length, billing method, tenure
-- **Financial Metrics** - Monthly charges, total charges, discounts
-- **Interactions** - Support tickets, technical issues reported
+**Identify At-Risk Customers** - Flag customers likely to churn before they leave  
+**Target Retention Campaigns** - Focus efforts on high-value customers at risk  
+**Reduce Revenue Loss** - Proactive intervention to minimize customer attrition  
+**Improve Customer Lifetime Value** - Develop data-driven loyalty programs  
+**Understand Churn Drivers** - Discover key factors influencing customer decisions  
 
 ---
 
